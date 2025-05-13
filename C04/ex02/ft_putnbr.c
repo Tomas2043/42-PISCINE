@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: toandrad <toandrad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: toandrad <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 18:21:42 by toandrad          #+#    #+#             */
-/*   Updated: 2025/02/03 13:09:44 by toandrad         ###   ########.fr       */
+/*   Updated: 2025/04/04 10:41:43 by toandrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-//#include <stdio.h>
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -32,9 +31,8 @@ void	ft_putnbr(int nb)
 	ft_putchar(n % 10 + '0');
 }
 
-/* int main(void)
+ int main(void)
 {
     ft_putnbr(2147483647);
-    printf("\n");
     return (0);
-} */
+} 
